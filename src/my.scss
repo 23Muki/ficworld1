@@ -80,8 +80,44 @@ body {
 }
 
 .TileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
+
+.Ratings {
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+    margin: 10px 0;
+}
+
+.deleteTile {
+    margin-bottom: 10px;
+}
+
+.editTile {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #03045e;
+    // border-radius: 100px;
+    color: #f8f9fa;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 
 .Poster {
     width: 100%;
@@ -93,12 +129,6 @@ body {
 
 .isWatched {
     margin-top: 10px;
-}
-
-button{
-    background-color: #03045e;
-    border-radius: 100px;
-    color: #f8f9fa;
 }
 
 .deleteTile {
@@ -120,8 +150,4 @@ button{
 
 .TypeOf {
     margin-left: 5px;
-}
-
-.Ratings {
-    margin: 10px 0;
 }
