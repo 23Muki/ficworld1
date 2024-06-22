@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ficworld1/static/css/main.c7296e75.css",
+    "main.css": "/ficworld1/static/css/main.f8a06037.css",
     "main.js": "/ficworld1/static/js/main.5a0c5b09.js",
     "static/media/bg.jpg": "/ficworld1/static/media/bg.9908759996f983a8c2d6.jpg",
     "index.html": "/ficworld1/index.html",
-    "main.c7296e75.css.map": "/ficworld1/static/css/main.c7296e75.css.map",
+    "main.f8a06037.css.map": "/ficworld1/static/css/main.f8a06037.css.map",
     "main.5a0c5b09.js.map": "/ficworld1/static/js/main.5a0c5b09.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7296e75.css",
+    "static/css/main.f8a06037.css",
     "static/js/main.5a0c5b09.js"
   ]
 }
