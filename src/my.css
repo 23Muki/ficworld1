@@ -129,14 +129,16 @@ button:hover {
 }
 
 .deleteTile {
-  text-transform: uppercase;
   border: none;
   padding: 10px 25px;
-  cursor: pointer;
   margin-top: 10px;
 }
 
-.deleteTile:hover {
+.deleteTile, .editTile {
+  text-transform: uppercase;
+}
+
+.deleteTile:hover, .editTile:hover {
   transform: scale(1.15);
 }
 
