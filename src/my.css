@@ -12,6 +12,8 @@ body {
 
 .Logo {
   border: 1px solid #000814;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background: #f8f9fa;
   background: rgba(248, 249, 250, 0.8);
   text-align: center;
@@ -29,6 +31,8 @@ body {
 
 .Form {
   border: 1px solid #000814;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   border-top: none;
   background-color: #f8f9fa;
   background: rgba(248, 249, 250, 0.8);
