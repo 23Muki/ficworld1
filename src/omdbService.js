@@ -1,4 +1,4 @@
-const API_KEY = '9a1186d6'; // Upewnij się, że masz swój klucz API
+const API_KEY = '9a1186d6';
 
 export const fetchMovie = async (title) => {
     const response = await fetch(`http://www.omdbapi.com/?t=${title}&apikey=${API_KEY}`);

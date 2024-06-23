@@ -23,7 +23,7 @@ function App() {
 
     const handleMovieData = async () => {
         if (formData.watched && formData.rating === 0) {
-            alert('Proszę ocenić produkcję, jeśli została oznaczona jako obejrzana.');
+            alert('Zaznaczyłeś opcję [Obejrzany], nie zapomnij ocenić produkcji!');
             return;
         }
 
@@ -176,5 +176,4 @@ function App() {
         </div>
     );
 }
-
 export default App;
